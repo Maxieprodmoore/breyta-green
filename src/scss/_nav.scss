@@ -1,0 +1,43 @@
+$navbar: #CFCFCF;
+$brand-colour: #263320;
+$highlight-colour: #95D274;
+
+/* Navigation bar css properties */
+    nav {
+        background-color: $navbar;
+        a {
+            color: $brand-colour;
+            margin: 0;
+            a:hover {
+                color: $highlight-colour;
+            }
+        }
+    }
+
+    .navigation SlDrawer::part(panel){
+        background-color: $navbar;
+    }
+
+    
+
+/* Footer properties */
+    footer {
+        background-color: $navbar ;
+
+
+
+        p {
+            color: $brand-colour;
+            margin: 0;
+        }
+    }
+
+    .footerBtn {
+        display: flex;
+        flex-direction: column;
+    }
+
+/* Nav & Footer IPad settings*/
+
+
+/* Nav & Footer smartphone settings*/
