@@ -1,0 +1,17 @@
+@use "navigation";
+@use "base";
+
+
+.formDetails, #socialsSI{
+    color: $brand-colour;
+}
+
+#signinBtn::part(base) {
+    background-color: $call-to-actionBtn;
+    color: white;
+}
+
+#newAccount::part(base) {
+    background-color: $text-colour;
+    color: white;
+}

@@ -1,0 +1,31 @@
+$section-colour: #E9E9E9;
+$text-colour: #2C173A;
+$rewards-colour: #993B26;
+$call-to-actionBtn: #FBA407;
+
+@use "navigation";
+
+    h1, h2 {
+        color: $brand-colour;
+    }
+
+    span {
+        color: $highlight-colour;
+    }
+
+    .catagory {
+        background-color: $section-colour;
+        padding: 0.5rem 0.35rem;
+
+        h3{
+            color: $brand-colour;
+        }
+
+        #ranking {
+            color: $rewards-colour;
+        }
+
+        #events {
+            color: $highlight-colour;
+        }
+    }

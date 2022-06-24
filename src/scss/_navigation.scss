@@ -8,6 +8,7 @@ $highlight-colour: #95D274;
         a {
             color: $brand-colour;
             margin: 0;
+            font-size: 0.75rem;
             a:hover {
                 color: $highlight-colour;
             }
@@ -16,6 +17,10 @@ $highlight-colour: #95D274;
 
     .navigation SlDrawer::part(panel){
         background-color: $navbar;
+    }
+
+    #navigationPC {
+        display: none;
     }
 
     
@@ -29,6 +34,7 @@ $highlight-colour: #95D274;
         p {
             color: $brand-colour;
             margin: 0;
+            font-size: 0.75rem;
         }
     }
 
@@ -39,5 +45,21 @@ $highlight-colour: #95D274;
 
 /* Nav & Footer IPad settings*/
 
+    @media  only screen and (min-width: 992px){
+        #navigationSmartDev {
+            display: none;
+        }
+
+        #navigationPC {
+            display: flex;
+            flex-direction: row;
+        }
+    }
+
+    nav {
+        a {
+            font-size: 1.05rem;
+        }
+    }
 
 /* Nav & Footer smartphone settings*/

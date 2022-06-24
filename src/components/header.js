@@ -6,7 +6,7 @@ const Header = () => {
     return ( 
         <div className="navigation">
             <nav>
-                <SlIconButton name='list'/>
+                <SlIconButton name='list' id='navigationSmartDev'/>
 
                 <img src={BreytaIcon} alt="Breyta Icon" />
 

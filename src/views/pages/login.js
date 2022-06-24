@@ -19,7 +19,7 @@ const LogIn = () => {
                         <label for="pwd"> <SlIcon name="envelope-fill" /> Password:</label>
                         <input type="password" id="pwd" name="pwd" /> 
                     </div>
-                    <input type="submit" value="Sign In"></input>
+                    <input type="submit" value="Sign In" id='signinBtn'></input>
 
                     <div id="socialsSI">
                         <SlButton size="large" circle>
@@ -36,7 +36,7 @@ const LogIn = () => {
                     <SlDivider/>
                 </div>
 
-                <SlButton>Create New Account</SlButton>
+                <SlButton id='newAccount'>Create New Account</SlButton>
                 
             </form>
         </div>
